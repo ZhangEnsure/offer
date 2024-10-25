@@ -36,6 +36,7 @@ public class threeSum15 {
                     List<Integer> list = Arrays.asList(nums[i], nums[left], nums[right]);
                     res.add(list);
                 
+                    // 这里的逻辑是需要仔细研究的
                     while(left<right && nums[left]==nums[left+1])
                         left++;
                     left++;
