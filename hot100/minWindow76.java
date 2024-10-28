@@ -1,10 +1,11 @@
 import java.util.HashMap;
+import java.util.Map;
 
 public class minWindow76 {
     public String minWindow(String s, String t) {
         
-        HashMap<Character, Integer> sHashMap = new HashMap<>();
-        HashMap<Character, Integer> tHashMap = new HashMap<>();
+        Map<Character, Integer> sHashMap = new HashMap<>();
+        Map<Character, Integer> tHashMap = new HashMap<>();
 
 
         char[] tArray = t.toCharArray();
