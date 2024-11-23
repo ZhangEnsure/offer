@@ -10,7 +10,7 @@ public class climbStairs70 {
         int q ,k ,v;
         v = 0;
         // 0 -> 0
-        q = 1;
+        q = 0;
         // 0 -> 1
         k = 1;
         for(int i = 0; i < n; ++i) {
